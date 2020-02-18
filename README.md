@@ -44,6 +44,12 @@ The page should render as per below:
 ![alt Screenshot 1](Screenshot/Screenshot1.JPG)
 
 
+## 6 Credits:
+
+The site and all assets has been created by Craig Ian Wentzel.
+
+Craig is a Full Stack Web Development Student at Hyperion Dev.
+
 
 
 
