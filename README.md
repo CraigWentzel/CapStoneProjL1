@@ -38,7 +38,7 @@ Users navigate the site to purchase Bicycles or Running Equipment
 Once all pages have been published you should land on Default.html
 The page should render as per below:
 
-text:![alt Screenshot 1](Screenshot/Screenshot1 ReadMe.JPG
+text:![alt Screenshot 1](Screenshot/Screenshot1 ReadMe.JPG)
 
 
 
