@@ -32,12 +32,13 @@ Users navigate the site to purchase Bicycles or Running Equipment
 *  Ensure that any animation or scroller effect is also pointing to the correct .js File.
 
 <a name ="iuser"></a>
-##5. User Adoption: 
+
+## 5. User Adoption: 
 
 Once all pages have been published you should land on Default.html
 The page should render as per below:
 
-text:![alt test](//Screenshot1ReadMe.JPG)
+text:![alt Screenshot 1](Screenshot/Screenshot1 ReadMe.JPG
 
 
 
