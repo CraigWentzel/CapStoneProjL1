@@ -1,0 +1,126 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+  
+
+<!-- Applying Bootstrap CSS here  -->
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+
+    
+   <!-- Global CSS applied -->
+
+   <link href= "styles/Global.css" rel="stylesheet" type="text/css"> 
+
+<!-- Reference to JS Files -->
+   
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="jSfiles/AddToCart.js"></script>
+
+    <title> Order Confirmation</title>
+
+</head>
+
+
+<body>
+ 
+    <!-- Building the Navigation Bar of this Page here with Search Button included -->
+
+        <nav class="navbar navbar-dark bg-primary">
+        <a class="navbar-brand" href="default.html">Home</a>
+        <a class="navbar-brand" href="Products.html">Our Products</a>
+        <a class="navbar-brand" href="Cart.html">Your Cart</a>
+        <a class="navbar-brand" href="Support.html">Support</a>
+        <a class="navbar-brand" href="Testimonials.html">Testimonials</a>
+        
+      </nav>
+
+<h1>Order Details</h1>
+   <table id=”checkout-cart” class=”shoppingcart”>
+<thead>
+    
+    <tr>
+       <th scope=”col”>Item</th>
+       <th scope=”col”>Quantity</th>
+       <th scope=”col”>Price</th>
+   </tr>
+
+</thead>
+
+
+   <tbody>
+  
+
+
+   </tbody>
+
+
+
+
+   </table>
+
+
+
+  <div id=”pricebox”>
+
+     <p id=”shipping”>
+         <strong>Shipping</strong>: <span id=”ship-n”></span>
+     
+     </p>
+
+
+
+     <p id=”subtotal”>
+
+     <strong>Total</strong>: <span id=”stotal”></span>
+
+     </p>
+     
+   </div>
+
+
+
+<div id=”user-details”>
+
+<h2>Your Data</h2>
+
+
+      <div id=”user-details-content”></div>
+     </div>
+
+
+<form id=”paypal-form” action=”” method=”post”>
+
+        <input type=”hidden” name=”cmd” value=”_cart” />
+        <input type=”hidden” name=”upload” value=”1”/>
+        <input type=”hidden” name=”business” value=””/>
+        <input type=”hidden” name=”currency_code” value=””/>
+
+        <button type="button" id="paypal-btn">Pay with PayPal</button>
+
+
+</form>
+
+ 
+</body>
+</html
+
+
+
+
+
+
+
+
+
+

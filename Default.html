@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+
+    <!-- Applying Bootstrap CSS here  -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+
+    <!-- CSS Styling for Text Block at the Bottom of the Page -->
+    <link href= "styles/homestyle.css" rel="stylesheet" type="text/css">
+
+
+    <!-- Global CSS for Task 2 Applied -->
+   <link href= "styles/Global.css" rel="stylesheet" type="text/css">
+
+   <!-- Slider CSS  -->
+   <link href= "styles/HomeScroller.css" rel="stylesheet" type="text/css">
+
+   <!-- Link to JS Files -->
+
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+   <script src="jsFiles/Slide.js"></script>
+
+
+     
+
+    <title>Home</title>
+
+  
+</head>
+
+<body>
+
+  <br>
+
+    <h1>Welcome To Craig Ryan Sports Online</h1>
+
+    <br>
+
+    <!-- Building the Navigation Bar of this Page here with Search Button included -->
+   
+    <nav class="navbar navbar-dark bg-primary">
+        <a class="navbar-brand" href="default.HTML">Home</a>
+        <a class="navbar-brand" href="Products.HTML">Our Products</a>
+        <a class="navbar-brand" href="Cart.HTML">Your Cart</a>
+        <a class="navbar-brand" href="Support.HTML">Support</a>
+        <a class="navbar-brand" href="Testimonials.HTML">Testimonials</a>
+        
+        
+      </nav>
+        
+
+
+    <!-- Creating the Body Text Content for the Home Page -->
+   <br>
+
+    <h2> Who are We ? </h2>
+        <p> Craig Ryan Sports has always guaranteed the best value for money.
+           <br>From a simple 29 inch Mountain Bike to a Full Orca Wet Suit. Craig Ryan has all that you need under one roof. 
+           <br>Established in 1995, with over a 100 stores nationwide we are able to source any equipment required within 48 hours. </p>
+    
+    <h3> Our Promise </h3>
+       <p> Our promise to you the client remains as follows: </p>
+          <ul>
+            <li> To Put You The Client First </li>
+            <li> To Provide Quality Sport Equipment and Kit </li>
+            <li> To Ensure That Your Sporting Experience Exceeds All Expectations </li>
+         </ul>
+
+ <h2> Our Partners </h2>
+
+<p>Our Partners are listed below in the slider</p>
+
+
+<!-- Create a Slider of Our Partners-->
+
+<div class="container">
+  <div class="mySlides">
+    <div class="numbertext">1 / 4</div>
+    <img src="images/Embark.JPG" style="width:100%">
+  </div>
+
+  <div class="mySlides">
+    <div class="numbertext">2 / 4</div>
+    <img src="images/ATC.JPG" style="width:100%">
+  </div>
+
+  <div class="mySlides">
+    <div class="numbertext">3 / 4</div>
+    <img src="images/Orca.JPG" style="width:100%">
+  </div>
+    
+  <div class="mySlides">
+    <div class="numbertext">4 / 4</div>
+    <img src="images/triathlon.JPG" style="width:100%">
+  </div>
+    
+  <a class="prev" onclick="plusSlides(-1)">❮</a>
+  <a class="next" onclick="plusSlides(1)">❯</a>
+
+  <div class="caption-container">
+    <p id="caption"></p>
+  </div>
+
+  <div class="row">
+    <div class="column">
+      <img class="demo cursor" src="images/Embark.JPG" style="width:100%" onclick="currentSlide(1)" alt="Embark">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="images/ATC.JPG" style="width:100%" onclick="currentSlide(2)" alt="ATC">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="images/Orca.JPG" style="width:100%" onclick="currentSlide(3)" alt="Orca">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="images/triathlon.JPG" style="width:100%" onclick="currentSlide(4)" alt="Triathlon">
+    </div>
+  </div>
+</div>
+
+</body>
+
+   
+
+</html>
