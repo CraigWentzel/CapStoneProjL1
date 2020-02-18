@@ -1,0 +1,238 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+  
+
+<!-- Applying Bootstrap CSS here  -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+
+    
+   <!-- Global CSS applied -->
+   <link href= "styles/Global.css" rel="stylesheet" type="text/css"> 
+
+
+
+   <style>
+    img {
+        width: 205px;
+        height: 180px;
+    }
+    </style>
+
+<!-- Reference to JS Files -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script defer src="jSfiles/AddToCart.js"></script>
+
+    <title> Checkout</title>
+
+
+</head>
+
+
+<body>
+ 
+    <!-- Building the Navigation Bar of this Page -->
+
+         <nav class="navbar navbar-dark bg-primary">
+        <a class="navbar-brand" href="default.HTML">Home</a>
+        <a class="navbar-brand" href="Products.HTML">Our Products</a>
+        <a class="navbar-brand" href="Cart.HTML">Your Cart</a>
+        <a class="navbar-brand" href="Support.HTML">Support</a>
+        <a class="navbar-brand" href="Testimonials.HTML">Testimonials</a>
+        
+      </nav>
+        
+      </nav>
+        
+
+ <h1> Checkout</h1>
+
+ <a href ="Products.HTML">Go To Our Products Page</a><br><br>
+       <br><br>
+
+<div id="cartDiv">
+        <div id="shoppingCartDiv">
+        <p>You have ordered the following items:</p>
+        <table id ="shoppingCartTable" colspan = "3" width = "30%" >
+            <thead>
+                <tr>
+                    <th>Image</th>
+                    <th>Description</th>  
+                    
+                </tr>
+            </thead>           
+        </table>
+    </div>
+    <br>
+    <br>
+       
+       <td><h1>Your Billing Details</h1></td><br>
+
+    <form>    
+        <p><b>Full Name:</b></p>
+        <input type="text" id = "FullName">
+
+         <p><b>Delivery Address:</b></p>
+          <textarea id="DeliveryAddress" rows="4" cols="50"></textarea>
+
+         <p><b>Contact Number:</b></p>
+        <input type="text" id = "ContactNumber">
+
+         <p><b>Credit Card Type</b></p>
+         
+           <select id = "CardType">
+                <option >Master Card</option>
+                <option >Visa</option>
+                <option >American Express</option>
+            </select>
+            <br>
+            <br>
+
+  <p><b>Credit Card Number</b></p>
+      <input type="text" id = "CardNumber">
+        <br>
+        <br>
+
+
+ <p><b>Expiry Month</b></p>
+
+         <select id = "ExpiryMonth">
+                <option >01</option>
+                <option >02</option>
+                <option >03</option>
+                <option >04</option>
+                <option >05</option>
+                <option >06</option>
+                <option >07</option>
+                <option >08</option>
+                <option >09</option>
+                <option >10</option>
+                <option >11</option>
+                <option >12</option>
+            </select>
+
+<p><b>Expiry Year</b></p>
+
+      <select id ="ExpiryYear">
+                <option >2020</option>
+                <option >2021</option>
+                <option >2022</option>
+                <option >2023</option>
+                <option >2024</option>
+                <option >2025</option>
+                <option >2026</option>
+                <option >2027</option>
+                <option >2028</option>
+                <option >2029</option>
+                <option >2030</option>
+            </select>
+
+            <br>    
+
+<p><b>CVV Number</b></p>
+      <input type="text" id = "CVV">
+        <br>
+        <br>
+        <br>
+        <br>
+
+        <td><h1>Order Details</h1></td>
+
+        <br><br>
+
+        <b>Product:</b>
+
+          <select id = "Products">
+                <option value = "6999" >Silverback Stride  Comp - R6999</option>
+                <option value = "7999">Scott Aspect 740 - R7999</option> 
+                <option value = "6999" >Giant XTC - R6999</option>  
+                <option value = "1599" >New Balance 680 V6 - R1599</option>  
+                <option value = "2599">New Balance Zante Zola - R2599 </option>   
+                <option value = "2899" >New Balance Fresh Foam - R2899</option>   
+            </select>
+
+
+        <br><br>
+        
+        <b>Quantity:</b>
+            <select id = "Quantity">
+                <option>1</option>
+                <option>2</option> 
+                <option>3</option>  
+                <option>4</option>  
+                <option>5</option>   
+            </select>
+
+           
+
+        <br>
+        <br>
+        
+            
+          <b>VAT:</b>
+
+            <select id ="VAT">
+                <option>15%</option>
+            </select>
+            
+            <br>
+            <br>
+
+<p><b>Voucher Discount:</b></p>
+
+            <select id = "Discount">
+                <option value = "0">R0</option>
+                <option value = "500">R500</option>
+                <option value = "750">R750</option>
+                <option value = "1000">R1000</option>
+                <option value = "1250">R1250</option>
+                <option value = "1500">R1500</option>
+            </select>
+            <br>
+            <br>
+
+      <p><b>Delivery Option:</b></p>
+
+           <select id = "DeliveryOption">
+                <option value = "150">Same Day Express - R150</option>
+                <option value = "70" >Next Day - R70</option>
+                <option value = "50"> Economy Courier (2 to 3 Days) - R50</option>
+                 
+            </select>
+            <br>
+            <br>
+
+
+<button onclick ="calculateOrderTotal()" type = button> = </button>
+
+           <br>
+           <br>
+
+    <b>Order Total:</b>
+          <label id ="orderTotal" ></label>
+
+     <br>
+     <br> 
+     <br>
+     <br>          
+                 
+    <button id = "Place Order" onclick = "OrderConfirmation()" type = button>Place Order</button>      
+    <button >Cancel Order</button>  
+</form>
+   </body>
+      </html>
+
+
+
+
+
+

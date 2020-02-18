@@ -1,0 +1,125 @@
+
+/* Setting Heading format for H1, H2 and H3 */
+ 
+  h1, h2, h3
+     {
+	
+      font-family: "Arial";
+      font-size: 25pt;
+      font-style: bold;
+      text-align: left;
+      
+    }
+
+
+
+
+
+
+/* Applying Image Formatting */
+
+
+img {
+	
+          padding: 5px;
+          float: center;
+
+     }
+
+
+
+
+/* Applying Page Background Color and Animation */
+
+
+ body 
+
+
+  {
+     background-color: lightgrey;
+     font-family: "Arial";
+     font-size:  12pt;
+
+   }
+      
+
+
+/* Setting Table Formatting */
+
+.table-hover 
+
+
+{  
+
+      background-color: lightgrey;
+      padding-top: 1px;
+      padding-bottom: 1px;
+      text-align: center;
+      font-family: "Arial";
+      font-size: 30pt
+      text-align: left;
+  }
+
+      
+    @keyframes mymove 
+
+  {
+ 
+    from {background-color: lightgrey;}
+    to {background-color: grey;}
+ }
+
+
+
+/* Setting formatting on my Lists */
+
+ul 
+
+ {
+  
+      list-style-type: square;
+      background: lightgrey;
+      padding: 20px;
+
+}
+
+/* Set Formatting on my Support Form */
+
+.form-group
+  {
+
+       background-color:  lightgrey;
+       padding-top: 1px;
+       padding-bottom: 1px;
+       text-align: left;
+       font-family: "Arial";
+       font-size: 12pt
+
+   }  
+.form-check, .form-text
+
+  {
+      background-color:  lightgrey;
+      padding-top: 1px;
+      padding-bottom: 1px;
+      text-align: left;
+      font-family: "Arial";
+      font-size: 12pt
+
+
+ } 
+
+
+
+ /* Apply filter to Craig Ryan Image on Home Page */
+
+.container 
+{
+
+ filter: brightness(100%);
+ float ="center";
+ 
+}
+
+
+

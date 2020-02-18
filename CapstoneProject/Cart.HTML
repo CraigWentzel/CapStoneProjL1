@@ -1,0 +1,98 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+  
+
+<!-- Applying Bootstrap CSS here  -->
+
+   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+
+    
+   <!-- Global CSS applied -->
+
+   <link href= "styles/Global.css" rel="stylesheet" type="text/css"> 
+
+
+
+
+<!-- Reference to JS Files -->
+   
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script  defer src ="jSfiles/AddToCart.js"></script>
+
+
+    <title>Shopping Cart</title>
+
+
+     <style>
+    img {
+        width: 205px;
+        height: 180px;
+    }
+    </style>
+
+
+
+</head>
+
+
+<body>
+
+<h1>Shopping Cart</h1>
+
+ 
+    <!-- Building the Navigation Bar of this Page here with Search Button included -->
+
+        <nav class="navbar navbar-dark bg-primary">
+        <a class="navbar-brand" href="default.HTML">Home</a>
+        <a class="navbar-brand" href="Products.HTML">Our Products</a>
+        <a class="navbar-brand" href="Cart.HTML">Your Cart</a>
+        <a class="navbar-brand" href="Support.HTML">Support</a>
+        <a class="navbar-brand" href="Testimonials.HTML">Testimonials</a>
+        
+      </nav>
+        
+      </nav>
+        
+
+<!-- Creating the Cart Page -->
+
+
+
+ <div id="cartDiv">
+        <a href ="Products.HTML">Go To Our Products Page</a><br><br>
+        <div id="shoppingCartDiv">
+        <p>The following items are in your Shopping Cart</p>
+        <table id ="shoppingCartTable" colspan = "3" width = "33%">
+            <thead>
+                <tr>
+                    <th>Image</th>
+                    <th>Description</th>  
+                    
+                </tr>
+            </thead>
+
+</table>
+    </div>
+
+    <br>
+    <br>
+    <br>
+       
+       <a href="Checkout.HTML"><button id ="checkout">Proceed to Checkout</a></button>
+          
+
+
+</body>
+</html>
+
