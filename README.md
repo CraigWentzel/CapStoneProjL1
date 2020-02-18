@@ -35,10 +35,13 @@ Users navigate the site to purchase Bicycles or Running Equipment
 
 ## 5. User Adoption: 
 
-Once all pages have been published you should land on Default.html
+Once all pages have been published you should land on Default.html.
+
 The page should render as per below:
 
-text:![alt Screenshot 1](Screenshot/Screenshot1.JPG)
+
+
+[alt Screenshot 1](Screenshot/Screenshot1.JPG)
 
 
 
