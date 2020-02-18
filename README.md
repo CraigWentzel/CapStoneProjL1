@@ -41,7 +41,7 @@ The page should render as per below:
 
 
 
-[alt Screenshot 1](Screenshot/Screenshot1.JPG)
+![alt Screenshot 1](Screenshot/Screenshot1.JPG)
 
 
 
